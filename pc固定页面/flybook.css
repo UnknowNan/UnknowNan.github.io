@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+#container #list{
+	width: 900px;
+	float: left;
+	position: relative;
+}
+#list h2{
+	font-size: 30px;
+	font-weight: normal;
+	color: #666;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #999;
+}
+#list .type {
+	font-size: 20px;
+	margin: 20px 0 10px 0;
+}
+#list .type mark{
+	color: #fff;
+	padding: 8px;
+	border-radius: 5px;
+	background: #458b00;
+	margin: 0 16px 0 22px;
+}
+#list  .form{
+	color: #666;
+	font-size: 20px;
+	margin: 18px 32px 20px 0;
+	display: inline-block;
+}
+/*#list .left{
+	width: 43%;
+}
+#list .form .right{
+	width: 43%;
+}
+#list .button{
+	width: 9%;
+	display: inline-block;
+}*/
+#list .button{
+	position: absolute;
+	top: 170px;
+	right: 10px;
+	
+}
+#list input{
+	width: 250px;
+	height: 30px;
+	line-height: 40px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-left: 22px;
+	padding: 5px;
+	margin-bottom: 16px;
+}
+#list .submit{
+	width: 90px;
+	height: 90px;
+	line-height:90px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 20px;
+	background: #f60;
+	border: none;
+	cursor: pointer;
+}
+#recommand h2{
+	font-size: 30px;
+	font-weight: normal;
+	color: #666;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #999;
+}
+#recommand ul{
+	margin:20px 0;
+}
+#recommand li{
+	color: #666;
+	font-size: 20px;
+	display: inline-block;
+	padding: 5px 10px;
+}
+#recommand li:first-child{
+	padding-left: 0;
+}
+#recommand #decide{
+	color: #fff;
+	border-radius: 5px;
+	background: #458b00;
+	text-align: center;
+	
+}
+#list .table {
+	width: 100%;
+	border-collapse: collapse;
+	border:1px solid #ddd;
+}
+ .table tr{
+	border-bottom: 1px solid #ccc;
+	height: 52px;
+	color: #666;
+	font-size: 20px;
+}
+.table tbody tr td:nth-child(3){
+	color: #f60;
+}
+#list .table tbody tr a{
+	padding:5px 20px;
+	background: #f60;
+	color: #fff;
+	border-radius: 3px;
+}
+#list .table td{
+	text-align: center;
+}
+#list .table  tr:nth-child(2n){
+	background: #fafafa;
+}
+#list .table tr:hover{
+	background: #eee;
+}

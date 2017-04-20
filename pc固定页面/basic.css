@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+body,h1,h2,h3,ul,p{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;
+}
+#none{
+	display: none;
+}
+ul{
+	list-style: outside none none;
+}
+a{
+	text-decoration: none;
+}
+#title{
+	display: none;
+}
+#logo{
+	width:240px;
+	height: 70px;
+	background-image:url(img/logo.png);
+	text-indent: -99999px;
+	float:left;
+}
+#nav{
+	width:100%;
+	min-width: 1263px;
+	height:70px;
+	background:#333;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.4);
+}
+#h_center{
+	width:1263px;
+	margin:0 auto;
+
+}
+#nav #link ul{
+	width: 700px;
+	height:70px;
+	line-height: 70px;
+	list-style: outside none none;
+	float: right;
+}
+#link li{
+	width:120px;	
+	text-align: center;
+	float: left;
+}
+#link a{
+	display: block;
+	text-decoration: none;
+	color:white;
+}
+#active, #link a:hover{
+	background:black;
+}
+#headline{
+	width: 100%;
+	min-width: 1263px;
+	height: 300px;
+	background: linear-gradient(to bottom right, rgba(0,0,0,0.7),
+				rgba(0,0,0,0.0)), url(img/headline.jpg) no-repeat center;
+}
+#headline hgroup{
+	padding: 100px 0 0 50px;
+	color: #eee;
+	letter-spacing: 1px;
+}
+#headline hgroup h2{
+	font-size: 36px;
+}
+#headline hgroup h3{
+	font-size: 20px;
+}
+#container{
+	width: 1263px;
+	margin: 30px auto;
+}
+#container #list{
+	float: left;
+}
+#container #sidebar{
+	width: 340px;
+	float: right;
+}
+#container .sidebox{
+	margin-bottom: 10px;
+	border: 1px solid #eee;
+	text-align: center;
+}
+#container .sidebox h2{
+	height: 40px;
+	line-height: 40px;
+	font-weight: normal;
+	font-size:20px;
+	color:#666;
+	letter-spacing: 1px;
+	background: #fafafa;
+	text-indent: 10px;
+	text-align: left;
+}
+#container .tag{
+	margin: 10px 0;
+}
+#container .tag figure{
+	width:150px;
+	display: inline-block;
+	margin: 5px;
+	color: #666;
+}
+#container .box{
+	margin: 10px 0;
+}
+#container .box a{
+	width:150px;
+	height: 40px;
+	color: #999;
+	line-height: 40px;
+	display: inline-block;
+	margin: 2px;
+	text-align: left;
+	text-indent: 35px;
+}
+#container .box .trea1{
+	background: #eee url(img/trea1.png) no-repeat 10px center;
+}
+#container .box .trea2{
+	background: #eee url(img/trea2.png) no-repeat 10px center;
+}
+#container .box .trea3{
+	background: #eee url(img/trea3.png) no-repeat 10px center;
+}
+#container .box .trea4{
+	background: #eee url(img/trea4.png) no-repeat 10px center;
+}
+#container .tag li{
+	width:100px;
+	display:inline-block;
+	margin: 2px 0;
+	height: 30px;
+	line-height: 30px;
+	background: #ccc;
+	text-indent: 8px;
+	text-align: left;
+}
+#container .tag a{
+	text-indent: 8px;
+	color: #999;
+	display: block;
+}
+#container .tag a:hover{
+	background:#458b00;
+	color: #fff;
+}
+#footer{
+	width: 100%;
+	clear: both;
+	background: #222;
+}
+#bottom_top{
+	width:1263px;
+	background:#222;
+	margin: 0 auto;
+}
+#footer .block{
+	display: inline-block;
+	width: 410px;
+	height: 280px;
+	background: #222;
+	vertical-align: top;
+}
+#footer .block h2{
+	color: #fff;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 20px 0 0 20px;
+	letter-spacing: normal;
+}
+#footer .block hr{
+	width: 90%;
+	border: 1px dashed #333;
+}
+#footer .f_title{
+	list-style: outside none none;
+	text-indent: 20px;
+	line-height: 2;
+	color: #777;
+	font-size: 18px;
+}
+#footer #bottom{
+	width: 100%;
+	height:80px;
+	line-height: 80px;
+	text-align: center;
+	color: #777;
+	background:black;
+	font-size: 20px;
+	border-top:1px solid #444;
+}
